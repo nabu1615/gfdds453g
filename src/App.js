@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 
 
-export const Template = (props) => {
+export const App = (props) => {
   return (
     <div id="root">
       <nav>
