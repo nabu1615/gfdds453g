@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from 'react-router';
 
 
 export const Template = (props) => {
   return (
-    <div>
+    <div id="root">
       <nav>
         <Link to="/page1">Page1</Link>
         <Link to="/page2">Page2</Link>
